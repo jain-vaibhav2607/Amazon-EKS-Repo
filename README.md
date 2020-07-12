@@ -13,3 +13,17 @@ Here are the steps of wordpress deployment with mySQL as backend:
             Here is the YML code:
             
 <img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/blob/master/clustercode.PNG">
+
+After running this yml file, our cluster had been launched.
+
+<img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/blob/master/EKSCluster.PNG">
+
+
+<img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/blob/master/WorkerNodes.PNG">
+
+**Step 2:**  Now, Create an EFS storage which comes under File system storage can be used by storage class as a provisioner. EFS is preferred over EBS because in EBS we can't mount to multiple instances running in different subnets. We are mounting EFS storage to all the availability zones in Mumbai region.
+
+<img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/blob/master/EFS1.PNG">
+
+
+<img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/blob/master/EFS2.PNG">
