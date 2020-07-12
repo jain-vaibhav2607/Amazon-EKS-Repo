@@ -12,4 +12,4 @@ Here are the steps of wordpress deployment with mySQL as backend:
 **Step 1:** First we need to create a EKS cluster on the top of the AWS cloud. Creation of EKS cluster will create worker nodes as EC2 instances.
             Here is the YML code:
             
-            <img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/find/master">
+<img src="https://github.com/jain-vaibhav2607/Amazon-EKS-Repo/blob/master/clustercode.PNG">
